@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* font-family: 'Montserrat', sans-serif */
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+border: none;
+outline: none;
+text-decoration: none;
+list-style: none;
+font-family: 'Montserrat', sans-serif}
+
+
+.container{width: 700px;;margin: auto; margin-top: 30px;}
+
+#qr-header{text-align: center;margin-top: 25px;}
+#qr-form{text-align: center;margin-top: 25px;}
+
+#qr-header h2{margin-bottom: 15px;}
+
+input{padding: 5px;border-radius: 7px;background-color: transparent;border: 1px solid blue;margin-bottom: 30px;}
+
+.btn{padding: 5px;border-radius: 7px;background-color: transparent;border: 1px solid blue;margin-left: 7px;}
+
+.btn:hover{background-color:rgb(35, 149, 230);}
+
+.btn:active{top: 2px;position: relative;}
+
+#qrCode {text-align: center;margin-bottom: 35px;}
